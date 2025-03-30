@@ -11,6 +11,7 @@
 	
 }
 
+
 .data{
 	border-collapse: collapse;
 	text-align:center;
@@ -22,6 +23,12 @@
 	text-align:right;
 	color:#BBBBBB;
 	font-family:font2;
+}
+.floatBtn{
+	position: fixed;	      
+    bottom: 5%;		
+    right: 5%;	
+
 }
 
 .logo{
@@ -41,31 +48,34 @@
     /* background: black; */
 }
 
+	
+
 .ratio {
     height: inherit;
 	position:relative;
     border-radius: 0 20px 20px 0;
-    background: #37916C;
+    background: #ED7D31;
 	animation-name: barAnmi;
 	animation-duration: 1s;
 	transition-timing-function: ease-in;
 	transition:0.4s;
 	text-align:right;
-		font-family:font2;
+	font-family:font2;
+	color: white;
 
 }
 
 .ratio2 {
     height: inherit;
     border-radius: 0 20px 20px 0;
-    background: #75CBA8;
+    background: #FFC000;
 	animation-name: barAnmi;
 	animation-duration: 1s;
 	transition-timing-function: ease-in;
 	transition:0.4s;
 	text-align:right;	
-		font-family:font2;
-
+	font-family:font2;
+    
 }
 
 .downBtn{
@@ -81,15 +91,15 @@
 		}
         	
 .downBtn:hover{
-	background:#75CBA8;
+	background:#FFC000;
 }
 
 #btn1:hover{
-	background:#75CBA8;
+	background:#FFC000;
 	/*color: black;*/
 }
 #btn2:hover{
-	background:#37916C;
+	background:#ED7D31;
 }
 /*#btn3:hover{*/
 /*	background:#FF5E23;*/
@@ -123,14 +133,14 @@
 	text-align:center;
 	letter-spacing: 3px;
 	font-size:60px;
-	margin-top:50px;
-	color:#75CBA8;
+	margin:50px 100px 0 100px;
+	color:#FFC000;
 	font-weight: bold;
 } 
 
 #notice{
 	text-align:center;
-	margin:-40px 0 20px 0;
+	margin-top:-50px;
 	color:#C1C1C1;
 } 
 
@@ -165,19 +175,12 @@
 	width:1px;
 	background:#444444;
 	position:parent;
-	font-size: 20px;
-
 	margin-left:100%;
 	color:#BBBBBB;
-}
-
-
-.floatBtn{
-	position: fixed;	      
-    bottom: 5%;		
-    right: 5%;	
+	font-size: 20px;
 
 }
+
 
 
 
