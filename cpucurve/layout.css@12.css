@@ -1,5 +1,5 @@
 #mainLayout{
-	background-image: url("../LOGO/gkwlogo.png");
+	background-image: url("../../LOGO/gkwlogo.png");
 	max-width:1500px;
 	margin:0 auto;
 	background-attachment:fixed
@@ -46,7 +46,7 @@ tr {
 
 	@font-face {
 	    font-family:font2;
-	    src: url(https://www.socpk.com/fonts/Bahnschrift-VF.ttf);
+	    src: url(../fonts/Bahnschrift-VF.ttf);
 	    
 	}
 
